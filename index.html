@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Design and User Interaction Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Responsive Design and User Interaction Project</h1>
+    </header>
+
+    <main class="content">
+      <section class="quiz-section">
+        <h2>Interactive Quiz</h2>
+        <div id="quiz-container"></div>
+        <button onclick="submitQuiz()">Submit</button>
+        <p id="quiz-result"></p>
+      </section>
+
+      <section class="api-section">
+        <h2>Random Joke</h2>
+        <button onclick="fetchJoke()">Get a Joke</button>
+        <p id="joke"></p>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
